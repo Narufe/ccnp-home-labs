@@ -1,0 +1,31 @@
+!
+interface GigabitEthernet0/2
+ switchport access vlan 20
+ switchport mode access
+ negotiation auto
+!
+interface GigabitEthernet0/3
+ switchport access vlan 20
+ switchport mode access
+ negotiation auto
+!
+interface GigabitEthernet1/0
+ switchport access vlan 30
+ switchport mode access
+ negotiation auto
+!
+interface GigabitEthernet1/1
+ switchport access vlan 30
+ switchport mode access
+ negotiation auto
+!
+
+! Vlan table
+Switch#show vlan brief
+
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Gi1/2, Gi1/3
+10   HR                               active    Gi0/0, Gi0/1
+20   Sales                            active    Gi0/2, Gi0/3
+30   Marketing                        active    Gi1/0, Gi1/1
