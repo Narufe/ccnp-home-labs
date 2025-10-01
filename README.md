@@ -11,8 +11,8 @@ It includes:
 
 ## Tiny Labs
 1. [VLANs Basic](tiny-labs/01-vlans-basic)  
-2. VLAN Trunks (coming soon)  
-3. Spanning Tree Protocol (STP) (coming soon)  
+2. [VLAN Trunks](tiny-labs/02-vlans-trunk/)  
+3. [Native Vlan](tiny-labs/03-native-vlan/)    
 4. ...  
 
 ---
