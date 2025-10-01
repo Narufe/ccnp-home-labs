@@ -34,7 +34,12 @@
   - Trunk:  
     - Gi1/0 set as `switchport mode trunk` with `dot1q` encapsulation.  
     - Default native VLAN = 1.  
-
+    - **To change the native VLAN:**
+      ```bash
+      interface Gi1/0
+       switchport mode trunk
+       switchport trunk native vlan [vlan number]
+       
 (See `configs/` for full device configs)
 
 ## Verification
