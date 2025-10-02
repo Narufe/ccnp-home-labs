@@ -12,8 +12,8 @@ It includes:
 ## Tiny Labs
 1. [VLANs Basic](tiny-labs/01-vlans-basic)  
 2. [VLAN Trunks](tiny-labs/02-vlans-trunk/)  
-3. [Native Vlan](tiny-labs/03-native-vlan/)    
-4. ...  
+3. [Native VLAN](tiny-labs/03-native-vlan/)    
+4. [Allowed VLANs](tiny-labs/04-allowed-vlans/)    
 
 ---
 

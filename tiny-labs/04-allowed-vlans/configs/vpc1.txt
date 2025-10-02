@@ -1,0 +1,5 @@
+VPCS> show
+
+NAME   IP/MASK              GATEWAY                             GATEWAY
+VPCS1  192.168.10.10/24     192.168.10.1
+       fe80::250:79ff:fe66:680a/64
