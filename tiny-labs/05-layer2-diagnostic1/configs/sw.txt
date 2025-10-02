@@ -1,0 +1,31 @@
+!
+interface GigabitEthernet0/0
+ negotiation auto
+!
+interface GigabitEthernet0/1
+ negotiation auto
+!
+interface GigabitEthernet0/2
+ negotiation auto
+!
+interface GigabitEthernet0/3
+ negotiation auto
+!
+interface GigabitEthernet1/0
+ negotiation auto
+!
+interface GigabitEthernet1/1
+ negotiation auto
+!
+interface GigabitEthernet1/2
+ negotiation auto
+!         
+interface GigabitEthernet1/3
+ negotiation auto
+!
+!
+mac address-table static 0050.7966.6808 vlan 1 interface GigabitEthernet1/3 
+mac address-table static 0050.7966.6806 vlan 1 interface GigabitEthernet1/1 
+mac address-table static 0050.7966.6807 vlan 1 interface GigabitEthernet1/2 
+!
+end

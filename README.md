@@ -14,6 +14,7 @@ It includes:
 2. [VLAN Trunks](tiny-labs/02-vlans-trunk/)  
 3. [Native VLAN](tiny-labs/03-native-vlan/)    
 4. [Allowed VLANs](tiny-labs/04-allowed-vlans/)    
+4. [Layer 2 Diagnostic 1](tiny-labs/05-layer2-diagnostic1/)    
 
 ---
 
