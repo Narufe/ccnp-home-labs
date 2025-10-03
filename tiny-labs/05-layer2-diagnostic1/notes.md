@@ -100,7 +100,7 @@ no mac address-table static 00:50:79:66:68:08 vlan 1 interface g1/3
 
 ✅ Static entries are deleted successfully.
 
-##Lessons Learned
+## Lessons Learned
 
 Switches learn MAC addresses dynamically when they receive frames.
 
