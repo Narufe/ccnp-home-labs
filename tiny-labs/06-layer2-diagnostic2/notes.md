@@ -45,7 +45,7 @@ interface g1/0
 
 ## Verification
 
-1. Checking an Access Port
+### Checking an Access Port
 ```bash
 show interface g0/0 switchport
 ```
@@ -62,7 +62,7 @@ Access Mode VLAN: 10
 
 ![Switchport1](captures/switchport1.png)
 
-2. Checking the Trunk Port
+### Checking the Trunk Port
 ```bash
 show interface g1/0 switchport
 ```
@@ -81,7 +81,7 @@ VLANs allowed on trunk: 10,20
 
 ![Switchport2](captures/switchport2.png)
 
-3. Interface Status Overview
+### Interface Status Overview
 ```bash
 show interface status
 ```
