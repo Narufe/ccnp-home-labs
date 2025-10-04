@@ -10,7 +10,6 @@
 ## Topology
 
 - 1 Router (R1)  
-- 1 Switch (for simple connectivity)  
 - 2 PCs  
 
 | Device | Interface | IP Address     | Subnet Mask   | Default Gateway |
@@ -54,7 +53,7 @@ Before any traffic, the ARP table only shows the router’s own interfaces:
 
 ### Pinging from PC1 → PC2
 
-1. 0PC1 sends ARP request for its default gateway (192.168.1.1):
+1. PC1 sends ARP request for its default gateway (192.168.1.1):
 
   - Source MAC: PC1
 
