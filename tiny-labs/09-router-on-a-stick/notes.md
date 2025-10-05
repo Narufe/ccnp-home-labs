@@ -108,6 +108,7 @@ Check Routing Table
 ```bash
 show ip route
 ```
+![sh-ip-route](captures/sh-ip-route.png)
 
 Displays three directly connected networks (VLANs 1, 2, and 3).
 
