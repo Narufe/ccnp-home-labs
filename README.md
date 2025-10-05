@@ -16,7 +16,8 @@ It includes:
 4. [Allowed VLANs](tiny-labs/04-allowed-vlans/)    
 5. [Layer 2 Diagnostic 1](tiny-labs/05-layer2-diagnostic1/)    
 6. [Layer 2 Diagnostic 2](tiny-labs/06-layer2-diagnostic2/)    
-7. [Packet Routing and ARP](tiny-labs/packet-routing/)    
+7. [Packet Routing and ARP](tiny-labs/07-packet-routing/)    
+8. [IP Address Assignment](tiny-labs/08-ip-address-assignment/)    
 
 ---
 
