@@ -15,12 +15,12 @@
 
 | Device | Interface | VLAN | IP Address     | Subnet Mask   |
 |--------|-----------|------|----------------|---------------|
-| VPC1   | G0/1      | 1    | 192.168.1.1    | 255.255.255.0 |
-| VPC2   | G0/2      | 2    | 192.168.2.1    | 255.255.255.0 |
-| VPC3   | G0/3      | 3    | 192.168.3.1    | 255.255.255.0 |
-| R1 G0/0.1 | -      | 1    | 192.168.1.254  | 255.255.255.0 |
-| R1 G0/0.2 | -      | 2    | 192.168.2.254  | 255.255.255.0 |
-| R1 G0/0.3 | -      | 3    | 192.168.3.254  | 255.255.255.0 |
+| VPC1   | G0/1      | 1    | 192.168.1.10    | 255.255.255.0 |
+| VPC2   | G0/2      | 2    | 192.168.2.10    | 255.255.255.0 |
+| VPC3   | G0/3      | 3    | 192.168.3.10    | 255.255.255.0 |
+| R1 G0/0.1 | -      | 1    | 192.168.1.1     | 255.255.255.0 |
+| R1 G0/0.2 | -      | 2    | 192.168.2.1     | 255.255.255.0 |
+| R1 G0/0.3 | -      | 3    | 192.168.3.1     | 255.255.255.0 |
 
 ![Lab Topology](diagram.png)
 
@@ -80,22 +80,22 @@ show interfaces trunk
 ```
 ![sh-int-trunk](captures/sh-int-trunk.png)
 
-Router Configuration
+### Router Configuration
 ```bash
 interface g0/0
   no shutdown
 
 interface g0/0.1
  encapsulation dot1q 1
- ip address 192.168.1.254 255.255.255.0
+ ip address 192.168.1.1 255.255.255.0
 
 interface g0/0.2
  encapsulation dot1q 2
- ip address 192.168.2.254 255.255.255.0
+ ip address 192.168.2.1 255.255.255.0
 
 interface g0/0.3
  encapsulation dot1q 3
- ip address 192.168.3.254 255.255.255.0
+ ip address 192.168.3.1 255.255.255.0
 ```
 
 Verify

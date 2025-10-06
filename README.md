@@ -18,7 +18,7 @@ It includes:
 6. [Layer 2 Diagnostic 2](tiny-labs/06-layer2-diagnostic2/)    
 7. [Packet Routing and ARP](tiny-labs/07-packet-routing/)    
 8. [IP Address Assignment](tiny-labs/08-ip-address-assignment/)    
-8. [Router On a Stick](tiny-labs/09-router-on-a-stick/)    
+8. [Router On A Stick](tiny-labs/09-router-on-a-stick/)    
 
 ---
 
