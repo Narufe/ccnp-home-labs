@@ -1,0 +1,41 @@
+!
+interface GigabitEthernet0/0
+ negotiation auto
+!
+interface GigabitEthernet0/1
+ switchport mode access
+ negotiation auto
+!
+interface GigabitEthernet0/2
+ switchport access vlan 2
+ switchport mode access
+ negotiation auto
+!
+interface GigabitEthernet0/3
+ switchport access vlan 3
+ switchport mode access
+ negotiation auto
+!
+interface GigabitEthernet1/0
+ negotiation auto
+!         
+interface GigabitEthernet1/1
+ negotiation auto
+!
+interface GigabitEthernet1/2
+ negotiation auto
+!
+interface GigabitEthernet1/3
+ negotiation auto
+!
+interface Vlan1
+ ip address 192.168.1.1 255.255.255.0
+!
+interface Vlan2
+ ip address 192.168.2.1 255.255.255.0
+!
+interface Vlan3
+ ip address 192.168.3.1 255.255.255.0
+!
+
+
