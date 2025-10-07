@@ -121,8 +121,8 @@ interface g0/0
 ```bash
 show interface g0/0 switchport
 ```
-Shows: Switchport: Disabled
 ![sh-int-g00-sw](captures/sh-int-g00-sw.png)
+Shows: Switchport: Disabled
 
 
 ```bash
