@@ -116,6 +116,10 @@ interface g0/0
  ip address 10.0.0.1 255.255.255.252
  no shutdown
 ```
+
+The command "no switchport" disables layer 2 switching and converts the interface to a layer 3 routed interface
+
+
 ✅ Verification
 
 ```bash
