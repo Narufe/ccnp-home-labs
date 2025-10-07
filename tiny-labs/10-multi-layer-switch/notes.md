@@ -56,18 +56,19 @@ show vlan brief
 ### Enabling IP Routing
 Initially, the switch cannot route between VLANs.
 
-```bash
-show ip route
-```
-
 To enable inter-VLAN routing:
 
 ```bash
 ip routing
 ```
 
+```bash
+show ip route
+```
+
 ![sh-ip-route](captures/sh-ip-route.png)
 
+Shows no connected networks
 
 ### Configure Switched Virtual Interfaces (SVIs)
 ```bash
@@ -89,7 +90,7 @@ interface vlan 3
 ```bash
 show ip route
 ```
-![sh-ip-route2](captures/sh-ip-route2.png)
+![sh-ip-route](captures/sh-ip-route2.png)
 
 Shows 3 connected VLAN networks (192.168.1.0/24, 192.168.2.0/24, 192.168.3.0/24).
 
@@ -121,7 +122,7 @@ interface g0/0
 show interface g0/0 switchport
 ```
 Shows: Switchport: Disabled
-![sh-ip-int-g00-sw](captures/sh-ip-int-g00-sw.png)
+![sh-int-g00-sw](captures/sh-int-g00-sw.png)
 
 
 ```bash
@@ -148,7 +149,7 @@ ip route 0.0.0.0 0.0.0.0 10.0.0.2
 ```bash
 show ip route
 ```
-![sh-ip-route2](captures/sh-ip-route2.png)
+![sh-ip-route2](captures/sh-ip-route3.png)
 
 Now displays:
 
